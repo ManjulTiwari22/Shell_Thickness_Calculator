@@ -1,0 +1,32 @@
+.app {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input-row {
+  display: flex;
+  gap: 10px;
+}
+
+.input-field, .dropdown {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.results-container {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.result-section {
+  margin-bottom: 20px;
+}
